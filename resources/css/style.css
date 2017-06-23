@@ -1,18 +1,13 @@
-.navbar {
-  position: fixed;
+.footer li {
+  list-style: none;
   bottom: 0;
   width: 50%;
-}
-#copyright h4 {
+  display: inline-block;
   text-align: left;
-  font-family: Helvetica;
-  font-size: 11px;
-  color: White;
-  background-color: dimgray;
+  padding: 0,0
 }
-* {
-  text-align: center;
-}
+
+
 #mainheading, #design {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 }
@@ -27,30 +22,57 @@ ul {
     font-family: Helvetica;
     font-size: 18px;
     color: White;
+    text-align: center;
 }
 #mainheading h1 {
   font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
   color: White;
+  text-align: center;
 }
 #process  h2 {
   font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
+  text-align: center;
 }
 #process, #design  h3 {
   font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
+  text-align: center;
 }
 #process, #design  p {
   font-family: Helvetica;
   font-size: 14px;
+  text-align: center;
 }
 #design h2 {
   font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
   color: White;
+  text-align: center;
 }
+#mainthings {
+  text-align: center;
+}
+.site-footer ul {
+  text-align: left;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+}
+
+.site-footer ul {
+  padding: 0 0;
+}
+
+.site-footer li {
+  display: inline-block;
+  list-style: none;
+}
+
+.site-footer a {
+  color: inherit;
